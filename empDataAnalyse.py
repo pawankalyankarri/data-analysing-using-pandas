@@ -54,6 +54,15 @@ res = df.loc[0:5,['name','salary']]
 res = df.iloc[0:2,0:2]
 
 
+import pandas as p
+
+data = p.read_csv('D:/Vcube/csvfile.csv')
+res = data[['Game Number']]
+#data.fillna(method = 'ffill',inplace=True)
+data = data.ffill()
+res = data.isnull().sum()
+print(res)
+
 
 
 
