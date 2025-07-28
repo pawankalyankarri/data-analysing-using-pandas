@@ -84,4 +84,4 @@ with open('C:\\Users\\pawan\\Python\\sample.txt') as file:
 
 for i in lines:
     print(i)
-
+ 
