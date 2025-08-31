@@ -86,3 +86,4 @@ import numpy as np
 #res = np.array([1,2,3,4,5],ndmin=64)
 
 #print(res)
+f
